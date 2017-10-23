@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   tomb = [1, 2, 3, 4, 5, 6, 7];
+  title = 'alma';
 
   constructor() {
     const alma = this.tomb.filter((param: number) => param === 2);
